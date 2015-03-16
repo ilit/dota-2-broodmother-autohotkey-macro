@@ -11,7 +11,8 @@ Create this file if it does not exist.
 
 Software to run script is at http://www.autohotkey.com/
 
-Compatible only with resolution 1920x1080 for now.
+Compatible with 1920 x 1080 resolution by default.
+Find your resolution in code and uncomment corresponding lines.
 
 Configured to "g" key by default. Change in script to whatever you want. Mouse clicks, Ctrl, Alt, Shift combinations are also possible. See http://ahkscript.org/docs/Hotkeys.htm for manual.
 
