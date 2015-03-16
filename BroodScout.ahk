@@ -8,6 +8,26 @@
 #IfWinActive, DOTA 2
 SetMouseDelay, 1
 
+; Creeps list corner for 1920 x 1080 resolution
+LIST_CORNER_X := 673
+LIST_CORNER_Y := 959
+
+; Creeps list corner for 1366 x 768 resolution
+;LIST_CORNER_X := 479
+;LIST_CORNER_Y := 681
+
+; Creeps list corner for 1280 x 1024 resolution
+;LIST_CORNER_X := 432
+;LIST_CORNER_Y := 918
+
+; Creeps list corner for 1600 x 900 resolution
+;LIST_CORNER_X := 562
+;LIST_CORNER_Y := 799
+
+; Creeps list corner for 1440 x 900 resolution
+;LIST_CORNER_X := 475
+;LIST_CORNER_Y := 799
+
 g:: ; Assign key here
 {
 	; Select all creeps
@@ -22,11 +42,11 @@ g:: ; Assign key here
 		; Page walker
 		Random, pageWalk, 0, 1
 		if (pageWalk = 1)
-			Click 727, 1062 ; Second page coordinates 
+			Click LIST_CORNER_X + 54, LIST_CORNER_Y + 103 ; Second page coordinates 
 
 		; Select random creep on page
-		Random, xRnd, 673, 879
-		Random, yRnd, 959, 1046		
+		Random, xRnd, LIST_CORNER_X, LIST_CORNER_X + 206
+		Random, yRnd, LIST_CORNER_Y, LIST_CORNER_Y + 87
 		Click %xRnd%, %yRnd%
 	}
 	
