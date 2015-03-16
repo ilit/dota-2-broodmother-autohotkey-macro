@@ -3,6 +3,7 @@
 Script for DOTA 2 Broodmother.
 Sends random owned creep to mouse position by only one key press.
 Map control/scouting purposes only.
+Can also be used by Enigma, Phantom Lancer.
 
 For proper minimap usage add "dota_minimap_misclick_time 0" text line to
 C:\Steam\steamapps\common\dota 2 beta\dota\cfg\autoexec.cfg
