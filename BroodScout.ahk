@@ -1,4 +1,5 @@
-﻿; Script sends one random owned creep to mouse location
+﻿; https://github.com/ilit/dota-2-broodmother-autohotkey-macro
+; Script sends one random owned creep to mouse location
 
 ; For proper minimap usage add "dota_minimap_misclick_time 0" text line to
 ; C:\Steam\steamapps\common\dota 2 beta\dota\cfg\autoexec.cfg
@@ -28,7 +29,7 @@ LIST_CORNER_Y := 959
 ;LIST_CORNER_X := 475
 ;LIST_CORNER_Y := 799
 
-g:: ; Assign key here
+g:: ; Assign key here. http://ahkscript.org/docs/Hotkeys.htm
 {
 	; Select all creeps
 	Send {F2}
@@ -36,7 +37,7 @@ g:: ; Assign key here
 	; Save mouse pos
 	MouseGetPos, xStart, yStart
 	
-	; 5 random clicks in hope that some will select creep
+	; 4 random clicks in hope that some will select creep
 	Loop 4
 	{
 		; Page walker
