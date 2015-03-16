@@ -14,6 +14,8 @@ Software to run script is at http://www.autohotkey.com/
 Compatible with 1920 x 1080 resolution by default.
 Find your resolution in code and uncomment corresponding lines.
 
+If there is no your resolution code sample in file make your own lines by writing X and Y coordinates of your creep lists upper left corner. Check out ListCorner.jpg to find out where is it.
+
 Configured to "g" key by default. Change in script to whatever you want. Mouse clicks, Ctrl, Alt, Shift combinations are also possible. See http://ahkscript.org/docs/Hotkeys.htm for manual.
 
 Write me xd[[at))modxvm.com
